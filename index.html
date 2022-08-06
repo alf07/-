@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Калькулятор вклада</title>
+  <!--[if IE]>
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/jquery-ui.css">
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/jquery-ui.js"></script>
+  <script src="script.js"></script>
+ </head>
+ <body>
+  <main>
+	<div id="myForm">
+		<div class="left">
+			<input type="text" id="datav" value="" placeholder="Дата открытия"  autocomplete="off"><Br>
+			<input type="number" id="srokv" value="" placeholder="Срок вклада" min="1" max="60" autocomplete="off"><Br>
+			<input type="number" id="sumav" value="" placeholder="Сумма вклада" min="1000" max="3000000" autocomplete="off"><Br>
+		</div>
+		<div class="right">
+			<input type="number" id="procentv" value="" placeholder="Процент по вкладу" min="3" max="100" autocomplete="off"><Br>
+			<input type="number" id="popolneniev" value="" placeholder="Сумма пополнения" min="0" max="3000000" autocomplete="off" style="display:none;"><Br>
+			<button>Расчитать</button>
+		</div>
+		<div style="width:100%;float: left;">
+		<input id="ch" type="checkbox" onclick="toogle();"/><span>Пополнение</span>
+		</div>
+		<hr>
+		<div id="result"></div>
+	</div>
+  </main
+> </body>
+</html>
