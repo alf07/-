@@ -1,0 +1,36 @@
+main{
+	width: 600px;
+    margin: 0 auto;
+    padding: 5%;
+	
+}
+input{
+	width: 280px;
+    height: 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 3%;
+	padding:1%;
+}
+button{
+	height: 47px;
+    width: 290px;
+}
+.left{
+	width:50%;
+	display: block;
+    float: left;
+}
+.right{
+	width:50%;
+	display: block;
+    float: right;
+}
+#result{
+	font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+}
+#ch{
+	width: 40px;
+}
